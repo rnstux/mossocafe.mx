@@ -20,5 +20,3 @@ fields:
     schema:
       format: markdown
   label: textarea
-pages:
-- exampleSite/content/home/index.md
