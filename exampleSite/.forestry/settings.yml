@@ -30,6 +30,11 @@ sections:
   create: documents
   match: "**/*"
 - type: directory
+  path: exampleSite/content/menú
+  label: menu
+  create: documents
+  match: "**/*"
+- type: directory
   path: exampleSite/content/contact
   label: Contact
   create: none
