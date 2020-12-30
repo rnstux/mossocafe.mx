@@ -4,14 +4,6 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
-- type: directory
-  path: exampleSite/content/home
-  label: home
-  create: all
-  match: "**/*"
-  exclude: _index.md
-  templates:
-  - inicio
 - type: heading
   label: Inicio
 - type: document
@@ -32,6 +24,14 @@ sections:
   - post
 - type: heading
   label: Main pages
+- type: directory
+  path: exampleSite/content/home
+  label: home
+  create: all
+  match: "**/*"
+  exclude: _index.md
+  templates:
+  - inicio
 - type: directory
   path: exampleSite/content/about-us
   label: About us
