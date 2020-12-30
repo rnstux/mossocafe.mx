@@ -9,6 +9,10 @@ theme = "Sicily-hugo-theme"
 title = "Mosso Café"
 [markup.goldmark.renderer]
 unsafe = true
+[menu.main]
+URL = "menu"
+name = "Nuestra carta"
+weight = 2
 [[menu.company]]
 URL = "about-us"
 name = "Nosotros"
@@ -21,10 +25,6 @@ weight = 2
 URL = "terms-conditions"
 name = "Términos y Condiciones"
 weight = 1
-[[menu.main]]
-URL = "contact"
-name = "Contacto"
-weight = 3
 [[menu.product]]
 URL = "pricing"
 name = "Pricing"
@@ -45,7 +45,7 @@ weight = 2
 author = "Uxi Software"
 contact_form_action = "#"
 description = "Cafetería con estílo, en Oaxaca. Ejido Guadalupe Victoria "
-footer = []
+footer = ["twitter"]
 logo = "images/logo.jpg"
 logo_width = "200px"
 [params.company]
