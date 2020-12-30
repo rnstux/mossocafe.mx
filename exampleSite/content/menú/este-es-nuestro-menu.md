@@ -1,14 +1,15 @@
 +++
 author = ""
 categories = []
-date = 2020-12-30T01:00:00Z
+date = ""
 description = "Menú Mosso"
 image = "/images/logo.png"
-title = "Este es nuestro menú"
+title = "Menu"
 
 +++
-<object data="/images/menu_mosso__3_.pdf" type="application/pdf" width="100%"> 
-    </object>
 
-<!-- +++
-    <embed src="/images/menu_mosso__3_.pdf" type="application/pdf"> -->
+<object data="/images/menu_mosso__3_.pdf" type="application/pdf" width="700px" height="700px">
+<embed src="/images/menu_mosso__3_.pdf">
+<p>This browser does not support PDFs. Please download the PDF to view it</p>
+</embed>
+</object>
