@@ -79,7 +79,7 @@ preloader = ""
 [[params.social]]
 icon = "/images/twitter.svg"
 link = "https://twitter.com"
-title = "twitter"
+title = "Twitter"
 [[params.social]]
 icon = "/images/insta.svg"
 link = "https://instagram.com/mossocafe/"
