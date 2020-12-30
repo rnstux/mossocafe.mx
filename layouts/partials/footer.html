@@ -1,5 +1,4 @@
-<!-- Branding -->
-{{ partial "page-branding.html" . }}
+ {{ partial "page-branding.html" . }}
 
 <div class="footer-clean">
     <footer>
@@ -49,9 +48,10 @@
     </footer>
 </div>
 
-{{ "
-<!-- JS Plugins -->" | safeHTML }} {{ range site.Params.plugins.js}}
+{{ "<!-- JS Plugins -->" | safeHTML }}
+{{ range site.Params.plugins.js}}
 <script src="{{ .link | absURL }}"></script>
-{{ end }} {{ "
-<!-- Main Script -->" | safeHTML }} {{ $script := resources.Get "js/script.js" | minify}}
+{{ end }}
+{{ "<!-- Main Script -->" | safeHTML }}
+{{ $script := resources.Get "js/script.js" | minify}}
 <script src="{{ $script.Permalink }}"></script>
