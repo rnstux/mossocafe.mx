@@ -30,6 +30,14 @@ sections:
   create: documents
   match: "**/*"
 - type: directory
+  path: exampleSite/content/menu
+  label: menu
+  create: documents
+  match: "**/*"
+  exclude: _index.md
+  templates:
+  - menu
+- type: directory
   path: exampleSite/content/contact
   label: Contact
   create: none
