@@ -29,11 +29,6 @@ sections:
   label: About us
   create: documents
   match: "**/*"
-  - type: directory
-  path: exampleSite/content/menu
-  label: menu
-  create: documents
-  match: "**/*"
 - type: directory
   path: exampleSite/content/contact
   label: Contact

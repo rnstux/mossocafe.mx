@@ -6,7 +6,7 @@ banner:
   button:
     enable: true
     label: Nuestra carta
-    link: '/menu'
+    link: ''
 description:
   content: "\""
 service:
