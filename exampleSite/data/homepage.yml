@@ -1,7 +1,7 @@
 ---
 banner:
   title: 'Ven y disfruta de un café en un lugar #Hermosso'
-  image: images/img_20201128_175549.jpg
+  image: "/images/cow.jpg"
   copyright: Copyright @ Mosso Café
   button:
     enable: true
