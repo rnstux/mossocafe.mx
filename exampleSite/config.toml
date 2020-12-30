@@ -22,10 +22,6 @@ URL = "terms-conditions"
 name = "Términos y Condiciones"
 weight = 1
 [[menu.main]]
-URL = "inicio"
-name = "Inicio"
-weight = 1
-[[menu.main]]
 URL = "contact"
 name = "Contacto"
 weight = 3
