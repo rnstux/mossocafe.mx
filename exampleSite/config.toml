@@ -54,7 +54,7 @@ address = "Guadalupe Victoria #122, Ejido Guadalupe Victoria"
 city = "Oaxaca de Juárez, Oaxaca"
 country = "México"
 email = "hola@mossocafe.mx"
-phone = ""
+phone = "55555555555"
 [params.navigation_button]
 enable = true
 label = "Reservar"
