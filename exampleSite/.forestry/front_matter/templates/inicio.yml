@@ -1,4 +1,22 @@
 ---
 label: inicio
 hide_body: true
-fields: []
+fields:
+- name: titulo
+  type: text
+  config:
+    required: false
+  label: titulo
+- name: galeria
+  type: image_gallery
+  config: {}
+  label: galeria
+- name: textarea
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: textarea
