@@ -20,7 +20,3 @@ fields:
 - type: list
   name: categories
   label: categories
-- name: menu
-  type: image_gallery
-  config: {}
-  label: menu
