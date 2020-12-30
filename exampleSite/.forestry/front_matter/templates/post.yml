@@ -24,5 +24,3 @@ fields:
   type: image_gallery
   config: {}
   label: menu
-pages:
-- exampleSite/content/menu/menu.html
