@@ -13,5 +13,3 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 <p>This browser does not support PDFs. Please download the PDF to view it</p>
 </embed>
 </object>
-
-    <embed src="/images/menu_mosso__3_.pdf" type="application/pdf">
