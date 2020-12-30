@@ -13,11 +13,6 @@ unsafe = true
 URL = "about-us"
 name = "Nosotros"
 weight = 3
-[[menu.main]]
-URL = "menu"
-name = "Nuestra Carta"
-url = ""
-weight = 2
 [[menu.company]]
 URL = "branches"
 name = "Sucursales"
@@ -26,6 +21,11 @@ weight = 2
 URL = "terms-conditions"
 name = "Términos y Condiciones"
 weight = 1
+[[menu.main]]
+URL = "menu"
+name = "Nuestra carta"
+url = "/images/menu_mosso__3_.pdf"
+weight = 2
 [[menu.main]]
 URL = "contact"
 name = "Contacto"
