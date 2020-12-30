@@ -8,7 +8,7 @@ banner:
     label: Nuestra carta
     link: ''
 description:
-  content: "\""
+  content: Mosso café
 service:
   enable: true
   service_item:
