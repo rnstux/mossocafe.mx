@@ -35,8 +35,6 @@ sections:
   create: documents
   match: "**/*"
   exclude: _index.md
-  templates:
-  - menu
 - type: directory
   path: exampleSite/content/contact
   label: Contact
