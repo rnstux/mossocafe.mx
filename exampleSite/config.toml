@@ -22,11 +22,6 @@ URL = "terms-conditions"
 name = "Términos y Condiciones"
 weight = 1
 [[menu.main]]
-URL = "menu"
-name = "Nuestra carta"
-url = "/images/menu_mosso__3_.pdf"
-weight = 2
-[[menu.main]]
 URL = "inicio"
 name = "Inicio"
 weight = 1
