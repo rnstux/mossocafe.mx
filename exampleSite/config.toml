@@ -13,6 +13,11 @@ unsafe = true
 URL = "about-us"
 name = "Nosotros"
 weight = 3
+[[menu.main]]
+URL = "menu"
+name = "Nuestra Carta"
+url = ""
+weight = 2
 [[menu.company]]
 URL = "branches"
 name = "Sucursales"
