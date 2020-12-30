@@ -6,8 +6,8 @@ type: regular
 description: This's a markdown test file
 menu:
   main:
-    URL: inicio
     name: Inicio
+    URL: inicio
     weight: 1
 
 ---

@@ -5,6 +5,10 @@ date = ""
 description = "Menú Mosso"
 image = "/images/logo.png"
 title = "Menu"
+[menu.main]
+URL = "menu"
+name = "Nuestra carta"
+weight = 2
 
 +++
 
