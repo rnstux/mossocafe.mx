@@ -2,11 +2,6 @@
 title: Nosotros
 subtitle: Quienes somos
 description: This is meta description
-menu:
-  main:
-    name: Nuestra carta
-    URL: menu
-    weight: 2
 
 ---
 # What is Lorem Ipsum
