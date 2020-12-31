@@ -1,16 +1,11 @@
 ---
-title: "Full Mardown test file"
-date: 2020-04-18T10:07:21+06:00
-# post image
-image: "https://dr.savee-cdn.com/things/5/f/7f299ba56b883776e65bca.jpg"
-# post type (regular/featured)
-type: "regular"
-# meta description
-description: "This's a markdown test file"
-# post draft
-draft: false
----
+title: Full Mardown test file
+date: 2020-04-18T10:07:21.000+06:00
+image: https://dr.savee-cdn.com/things/5/f/7f299ba56b883776e65bca.jpg
+type: regular
+description: This's a markdown test file
 
+---
 # Markdown: Syntax
 
 *   [Overview](#overview)

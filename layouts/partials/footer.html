@@ -1,10 +1,8 @@
-<!-- Branding -->
-{{ partial "page-branding.html" . }}
+ {{ partial "page-branding.html" . }}
 
 <div class="footer-clean">
     <footer>
         <div class="container">
-            <h1 style="color: #000000;"></h1>
             <div class="row justify-content-center mr-5 ml-5 p-5">
                 <div class="col col-md-4 mt-5">
                     <h3 class="text-uppercase" style="color: rgb(0,0,0);">{{site.Params.company.country}}</h3>
@@ -18,7 +16,7 @@
                     </ul>
                 </div>
                 <div class="col col-md-4 mt-5">
-                    <h3 class="text-uppercase">Company</h3>
+                    <h3 class="text-uppercase">Empresa</h3>
                     <ul>
                         {{ range site.Menus.company }}
                         <li><a href="{{ .URL | absURL }}">{{ .Name }}</a></li>
@@ -33,23 +31,21 @@
                         {{ end }}
                     </ul>
                 </div>
-
-
-        </div>
-
-        <!-- <div class="row justify-content-center mr-5 ml-5 p-5">
-            {{range site.Params.footer}}
-            <div class="col col-md-4 mt-5">
-                <h3 class="text-uppercase">{{.rol_name}}</h3>
-                <ul>
-                    <li>{{.rol_representative}}</li>
-                    <li><a href="mailto:{{ .rol_email }}" style="font-weight: bold;color: rgb(0,0,0);">{{ .rol_email }}</a></li>
-                </ul>
             </div>
-            {{end}}
-        </div> -->
-</div>
-</footer>
+
+            <div class="row justify-content-center mr-5 ml-5 p-5">
+                {{range site.Params.footer}}
+                <div class="col col-md-4 mt-5">
+                    <h3 class="text-uppercase">{{.rol_name}}</h3>
+                    <ul>
+                        <li>{{.rol_representative}}</li>
+                        <li><a href="mailto:{{ .rol_email }}" style="font-weight: bold;color: rgb(0,0,0);">{{ .rol_email }}</a></li>
+                    </ul>
+                </div>
+                {{end}}
+            </div>
+        </div>
+    </footer>
 </div>
 
 {{ "<!-- JS Plugins -->" | safeHTML }}

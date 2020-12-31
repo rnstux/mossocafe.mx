@@ -20,8 +20,3 @@ fields:
     schema:
       format: markdown
   label: textarea
-- name: level
-  type: include
-  config: {}
-  template: post
-  label: level
