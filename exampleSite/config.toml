@@ -90,18 +90,18 @@ preloader = ""
 # rol_representative = "Mateo Josedulfo"
 
 [[params.social]]
-icon = "ti-facebook"
-link = "#"
-title = "facebook"
+icon = "ti-instagram"
+link = "https://www.instagram.com/mossocafe/"
+title = "Instagram"
 [[params.social]]
 icon = "ti-twitter-alt"
 link = "https://twitter.com/cristianmarint"
 title = "twitter"
-[[params.social]]
-icon = "ti-skype"
-link = "#"
-title = "skype"
-[[params.social]]
-icon = "ti-linkedin"
-link = "#"
-title = "linkedin"
+# [[params.social]]
+# icon = "ti-skype"
+# link = "#"
+# title = "skype"
+# [[params.social]]
+# icon = "ti-linkedin"
+# link = "#"
+# title = "linkedin"

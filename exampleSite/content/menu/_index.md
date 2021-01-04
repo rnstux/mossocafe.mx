@@ -1,6 +1,6 @@
 ---
 title: "Menú"
-subtitle: "This is who we are"
+subtitle: "Ven y disfruta nuestro delicioso menú "
 # meta description
 description: "This is meta description"
 draft: false
