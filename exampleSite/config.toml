@@ -1,55 +1,47 @@
-baseURL = "https://www.mossocafe.mx/"
+baseURL = "https://example.com/"
 disqusShortname = "sicily-hugo-theme"
 googleAnalytics = ""
-languageCode = "es-mx"
+languageCode = "en-us"
 languageName = "Es"
 paginate = "10"
 summaryLength = "15"
 theme = "Sicily-hugo-theme"
-title = "Mosso Café"
+title = "MossoCafé"
 [markup.goldmark.renderer]
 unsafe = true
 [[menu.company]]
 URL = "about-us"
 name = "Nosotros"
-weight = 3
 [[menu.company]]
-URL = "branches"
-name = "Sucursales"
-weight = 2
+URL = "quick-start"
+name = "Quick Start"
 [[menu.company]]
 URL = "terms-conditions"
-name = "Términos y Condiciones"
-weight = 1
+name = "Terms & Conditions"
 [[menu.main]]
 URL = "inicio"
 name = "Inicio"
-weight = "1"
+weight = 1
 [[menu.main]]
 URL = "menu"
-name = "Nuestra carta"
-url = "/images/menu_mosso__3_.pdf"
-weight = 2
+name = "Menu"
+weight = 1
 [[menu.main]]
 URL = "contact"
-name = "Contacto"
+name = "Contact"
 weight = 3
 [[menu.product]]
 URL = "pricing"
 name = "Pricing"
-weight = 4
 [[menu.product]]
 URL = "platform"
 name = "Platform"
-weight = 3
-[[menu.product]]
-URL = "privacy-policy"
-name = "Privacy Policy"
-weight = 1
 [[menu.product]]
 URL = "faq"
 name = "FAQ"
-weight = 2
+[[menu.product]]
+URL = "privacy-policy"
+name = "Privacy Policy"
 [params]
 author = "Uxi Software"
 contact_form_action = "#"
@@ -65,7 +57,7 @@ email = "hola@mossocafe.mx"
 phone = ""
 [params.navigation_button]
 enable = true
-label = "Reservar"
+label = "Reservaciones"
 link = "contact"
 [[params.plugins.css]]
 link = "plugins/bootstrap/bootstrap.min.css"
@@ -84,11 +76,32 @@ link = "plugins/slick/slick.min.js"
 [params.preloader]
 enable = false
 preloader = ""
+# [[params.footer]]
+# rol_email = "pedropiedras@sicily.com"
+# rol_name = "Creative Director"
+# rol_representative = "Pedro Pidras"
+# [[params.footer]]
+# rol_email = "juanrisas@sicily.com"
+# rol_name = "Chief executive officer"
+# rol_representative = "Juan Risas"
+# [[params.footer]]
+# rol_email = "mateojosedulfo@Sicily.com"
+# rol_name = "Bussines Director"
+# rol_representative = "Mateo Josedulfo"
+
 [[params.social]]
-icon = "/images/twitter.svg"
-link = "https://twitter.com"
-title = "Twitter"
+icon = "ti-facebook"
+link = "#"
+title = "facebook"
 [[params.social]]
-icon = "/images/insta.svg"
-link = "https://instagram.com/mossocafe/"
-title = "Instagram"
+icon = "ti-twitter-alt"
+link = "https://twitter.com/cristianmarint"
+title = "twitter"
+[[params.social]]
+icon = "ti-skype"
+link = "#"
+title = "skype"
+[[params.social]]
+icon = "ti-linkedin"
+link = "#"
+title = "linkedin"
