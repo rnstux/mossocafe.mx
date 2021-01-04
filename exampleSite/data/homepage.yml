@@ -5,8 +5,8 @@ banner:
   copyright : "Copyright @ Mosso Café"
   button:
     enable : true
-    label : "Pricing"
-    link : "/pricing/"
+    label : "Nuestra Carta"
+    link : "/menu/"
 
 ##################### Social ##########################
 description:
