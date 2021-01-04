@@ -97,11 +97,11 @@ title = "Instagram"
 icon = "ti-twitter-alt"
 link = "https://twitter.com/cristianmarint"
 title = "twitter"
-# [[params.social]]
-# icon = "ti-skype"
-# link = "#"
-# title = "skype"
-# [[params.social]]
-# icon = "ti-linkedin"
-# link = "#"
-# title = "linkedin"
+[[params.social]]
+icon = "ti-facebook"
+link = "https://www.facebook.com/mossocafe/"
+ title = "Facebook"
+[[params.social]]
+icon = "ti-linkedin"
+link = ""
+title = "9515792063"
