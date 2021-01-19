@@ -8,7 +8,7 @@ draft: false
 
 
 <div style="width: 70%; margin: 0 auto;">
-<object style="align-center" data="/images/menu_mosso__3_.pdf" type="application/pdf" width="700px" height="700px">
+<object style="align-center" data="/images/mosso_nuevo.pdf" type="application/pdf" width="700px" height="700px">
     <embed src="/images/menu_mosso__3_.pdf">
         <p>This browser does not support PDFs. Please download the PDF to view it</p>
     </embed>
