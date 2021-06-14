@@ -23,12 +23,12 @@ URL = "inicio"
 name = "Inicio"
 weight = 1
 [[menu.main]]
-URL = "menú"
-name = "Menú"
+URL = "menu"
+name = "Menu"
 weight = 1
 [[menu.main]]
-URL = "contacto"
-name = "Contacto"
+URL = "contact"
+name = "Contact"
 weight = 3
 [[menu.product]]
 URL = "pricing"
