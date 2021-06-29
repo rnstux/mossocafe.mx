@@ -8,8 +8,8 @@ draft: false
 
 
 <div style="width: 70%; margin: 0 auto;">
-<object style="align-center" data="/images/blank.pdf" type="application/pdf" width="900px" height="900px">
-    <embed src="/images/blank.pdf">
+<object style="align-center" data="/images/menudigital.pdf" type="application/pdf" width="900px" height="900px">
+    <embed src="/images/menudigital.pdf">
         <p>This browser does not support PDFs. Please download the PDF to view it</p>
     </embed>
 </object>
